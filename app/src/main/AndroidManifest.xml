@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projectappquestionanswer">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".About"
+            android:parentActivityName=".MainFeed"></activity>
+        <activity android:name=".MyQuestion" />
+        <activity android:name=".QuestionListFragment" />
+        <activity android:name=".DynamicFragmentAdapter" />
+        <activity android:name=".MyListData" />
+        <activity android:name=".HomeFragment" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".forgotpassword" />
+        <activity android:name=".forgotpassword2" />
+        <activity
+            android:name=".ViewQuestion"
+            android:parentActivityName=".MainFeed" />
+        <activity android:name=".MainFeed" />
+        <activity android:name=".SplashScreen"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
