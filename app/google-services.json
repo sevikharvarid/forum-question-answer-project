@@ -1,34 +1,108 @@
 {
   "project_info": {
-    "project_number": "581743677056",
-    "firebase_url": "https://kemenkumham-sultra.firebaseio.com",
-    "project_id": "kemenkumham-sultra",
-    "storage_bucket": "kemenkumham-sultra.appspot.com"
+    "project_number": "472700394388",
+    "firebase_url": "https://app-testing-project1.firebaseio.com",
+    "project_id": "app-testing-project1",
+    "storage_bucket": "app-testing-project1.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:581743677056:android:af4d9f3204a5579a7a6065",
+        "mobilesdk_app_id": "1:472700394388:android:21502fdd294418c8124d81",
         "android_client_info": {
-          "package_name": "com.project.crudfirebase"
+          "package_name": "com.example.faq_chatapp_admin"
         }
       },
       "oauth_client": [
         {
-          "client_id": "581743677056-10f305khl7vs4gda75i5s2n4ne9vpog8.apps.googleusercontent.com",
+          "client_id": "472700394388-8e5m3vf9jrc5c9c8250kraemboe9nb7e.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCdPnm3tnH8maHpWPuW6r6pOT0_9J4dmAE"
+          "current_key": "AIzaSyAJZrgvtzMyENv9ne5JwONY-7dyLlZ3QI4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "581743677056-10f305khl7vs4gda75i5s2n4ne9vpog8.apps.googleusercontent.com",
+              "client_id": "472700394388-8e5m3vf9jrc5c9c8250kraemboe9nb7e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472700394388:android:0b2b79eb9cd4f06d124d81",
+        "android_client_info": {
+          "package_name": "com.example.projectadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472700394388-83vcsc4nfkvtl3vtgi5sd589ssdgg57m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.projectadmin",
+            "certificate_hash": "ef0f54cd7defb960f999fb4539bd922f36301e73"
+          }
+        },
+        {
+          "client_id": "472700394388-8e5m3vf9jrc5c9c8250kraemboe9nb7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJZrgvtzMyENv9ne5JwONY-7dyLlZ3QI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472700394388-8e5m3vf9jrc5c9c8250kraemboe9nb7e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472700394388:android:88c7d1e20fc868a3124d81",
+        "android_client_info": {
+          "package_name": "com.project.crudfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472700394388-6fi43o64a54p0aquo5ukpp8cmo0h6hhp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.crudfirebase",
+            "certificate_hash": "ef0f54cd7defb960f999fb4539bd922f36301e73"
+          }
+        },
+        {
+          "client_id": "472700394388-8e5m3vf9jrc5c9c8250kraemboe9nb7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJZrgvtzMyENv9ne5JwONY-7dyLlZ3QI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472700394388-8e5m3vf9jrc5c9c8250kraemboe9nb7e.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
