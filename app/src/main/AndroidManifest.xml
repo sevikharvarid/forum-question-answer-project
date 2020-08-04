@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.projectappquestionanswer">
+    package="com.project.crudfirebase">
 
     <application
         android:allowBackup="true"
@@ -9,22 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".About"
-            android:parentActivityName=".MainFeed"></activity>
-        <activity android:name=".MyQuestion" />
-        <activity android:name=".QuestionListFragment" />
-        <activity android:name=".DynamicFragmentAdapter" />
-        <activity android:name=".MyListData" />
-        <activity android:name=".HomeFragment" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".SignupActivity" />
-        <activity android:name=".forgotpassword" />
-        <activity android:name=".forgotpassword2" />
+        <activity android:name="com.project.crudfirebase.About"
+            android:parentActivityName="com.project.crudfirebase.MainFeed"></activity>
+        <activity android:name="com.project.crudfirebase.MyQuestion" />
+        <activity android:name="com.project.crudfirebase.QuestionListFragment" />
+        <activity android:name="com.project.crudfirebase.DynamicFragmentAdapter" />
+        <activity android:name="com.project.crudfirebase.MyListData" />
+        <activity android:name="com.project.crudfirebase.HomeFragment" />
+        <activity android:name="com.project.crudfirebase.LoginActivity" />
+        <activity android:name="com.project.crudfirebase.SignupActivity" />
+        <activity android:name="com.project.crudfirebase.forgotpassword"
+            android:parentActivityName=".LoginActivity"/>
+        <activity android:name="com.project.crudfirebase.forgotpassword2" />
         <activity
-            android:name=".ViewQuestion"
-            android:parentActivityName=".MainFeed" />
-        <activity android:name=".MainFeed" />
-        <activity android:name=".SplashScreen"
+            android:name="com.project.crudfirebase.ViewQuestion"
+            android:parentActivityName="com.project.crudfirebase.MainFeed" />
+        <activity android:name="com.project.crudfirebase.MainFeed" />
+        <activity android:name="com.project.crudfirebase.SplashScreen"
             android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
