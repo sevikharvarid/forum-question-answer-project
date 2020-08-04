@@ -26,7 +26,7 @@ public class DynamicFragmentAdapter extends FragmentStatePagerAdapter {
         Bundle b = new Bundle();
         b.putString("position", list.get(position));
         //Fragment frag = QuestionListFragment.newInstance();
-        Fragment frag = MyListData.newInstance();
+        Fragment frag = MyListDataFragment.newInstance();
         frag.setArguments(b);
         return frag;
 

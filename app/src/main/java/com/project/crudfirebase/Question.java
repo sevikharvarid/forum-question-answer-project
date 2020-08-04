@@ -2,6 +2,12 @@ package com.project.crudfirebase;
 
 public class Question {
     private String id;
+    private String category;
+    private String description;
+    private String views;
+    private String title;
+    private String author;
+    private String key;
 
 
     public String getId() {
@@ -12,7 +18,6 @@ public class Question {
         this.id = id;
     }
 
-    private String views;
 
     public String getViews() {
         return views;
@@ -22,8 +27,6 @@ public class Question {
         this.views = views;
     }
 
-    private String title;
-    private String author;
 
     public String getKey() {
         return key;
@@ -33,7 +36,6 @@ public class Question {
         this.key = key;
     }
 
-    private String key;
 
     public String getCategory() {
         return category;
@@ -43,8 +45,7 @@ public class Question {
         this.category = category;
     }
 
-    private String category;
-    private String description;
+
 
     public Question() {
     }

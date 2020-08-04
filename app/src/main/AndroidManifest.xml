@@ -14,7 +14,7 @@
         <activity android:name="com.project.crudfirebase.MyQuestion" />
         <activity android:name="com.project.crudfirebase.QuestionListFragment" />
         <activity android:name="com.project.crudfirebase.DynamicFragmentAdapter" />
-        <activity android:name="com.project.crudfirebase.MyListData" />
+        <activity android:name="com.project.crudfirebase.MyListDataFragment" />
         <activity android:name="com.project.crudfirebase.HomeFragment" />
         <activity android:name="com.project.crudfirebase.LoginActivity" />
         <activity android:name="com.project.crudfirebase.SignupActivity" />
